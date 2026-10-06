@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
   char a3 = 0b01010101;
   char b3 = 0b10101111;
   char c3 = 0b11111111;
-  assert((a3 & b3) == c3);
+  assert((a3 | b3) == c3);
 
   char a4 = 0b01010101;
   char b4 = 0b10101111;
